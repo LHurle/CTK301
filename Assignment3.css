@@ -1,0 +1,63 @@
+/*
+p {
+ color: #020202;
+ background-color: #D7CBCB;
+}
+*/
+
+h1 {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
+
+.specialp {
+ color: #DD0808;
+ background-color: #D7CBCB;
+}
+
+#specialid {
+ color: #FFFFFF;
+ background-color: #DD0808;
+}
+
+a {
+ color: #DD0808;
+}
+
+a:link {
+ color: #DD0808;
+}
+
+a:visited {
+ color: #077D09;
+}
+
+a:active {
+ color: #DD0808;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+#divexample {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
+
+.spanstyle {
+  color: #DD0808;
+}
+
+footer {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
