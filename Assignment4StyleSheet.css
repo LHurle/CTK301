@@ -1,0 +1,87 @@
+.customtext {
+  font-family: sans-serif;
+}
+
+.imgbox {
+  border: 20px solid #000000;
+  padding: 5px;
+  margin: 20px 20px 0 0;
+  background-color: #ffffff;
+}
+
+body {
+  background-image: url("Subfolder/Puppy 3.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+h1 {
+  color: #DB7C1D;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.specialp {
+ color: #DD0808;
+ background-color: #D7CBCB;
+}
+
+#specialid {
+ color: #FFFFFF;
+ background-color: #DD0808;
+}
+
+a {
+ color: #DD0808;
+}
+
+a:link {
+ color: #DD0808;
+}
+
+a:visited {
+ color: #077D09;
+}
+
+a:active {
+ color: #DD0808;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+#divexample {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
+
+#seconddiv {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
+
+.spanstyle {
+  color: #DD0808;
+}
+
+footer {
+  color: #DD0808;
+  background-color: #D7CBCB;
+}
