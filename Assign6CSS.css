@@ -1,0 +1,149 @@
+body {
+  background-image: url("assignment6/a62.png");
+  background-repeat: repeat;
+}
+
+header {
+  grid-column: span 12;
+}
+
+h1 {
+  background-color: #000000;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+h2 {
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+}
+
+.boldtext {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 10px;
+  margin-top: 18px;
+  font-family: georgia, sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+p {
+  padding: 0;
+  margin-left: 10px;
+}
+
+a {
+ color: #FF0000;
+}
+
+a:link {
+ color: #FFFFFF;
+}
+
+a:visited {
+ color: #0000FF;
+}
+
+a:active {
+ color: #FF0000;
+}
+
+a {
+  background-color: #FF0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #851313;
+  text-decoration: underline;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding-top: 1em;
+  width: 960px;
+  border: 5px solid #000000;
+  background-color: #FFFFFF;
+  display: grid;
+}
+
+nav {
+  width: 200px;
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+nav li {
+  background-color: #FF0000;
+  float: left;
+  padding: 0;
+  margin: 10px;
+  width: 150px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  background-color: #FF0000;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #851313;
+}
+
+.floatimage {
+  float: left;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 15px;
+}
+
+main {
+  grid-column: span 9;
+}
+
+main a {
+  color: #FF0000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #0000FF;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-top: 5px solid black;
+  padding: 5px;
+  font-family: verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  grid-column: span 12;
+}
