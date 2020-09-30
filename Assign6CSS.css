@@ -50,7 +50,7 @@ a {
 }
 
 a:link {
- color: #FFFFFF;
+ color: #FF0000;
 }
 
 a:visited {
@@ -111,6 +111,10 @@ nav li a:hover {
   background-color: #851313;
 }
 
+nav li a:link {
+ color: #FFFFFF;
+}
+
 .floatimage {
   float: left;
   border: 5px solid black;
@@ -124,7 +128,7 @@ main {
 }
 
 main a {
-  color: #FF0000;
+  color: red;
   background-color: #FFFFFF;
   font-weight: bold;
   text-decoration: none;
