@@ -135,7 +135,7 @@ main h1 {
 }
 
 .sketchlink a {
-  display: inline-block;
+  display: block;
   padding: 0;
   color: white;
   text-decoration: none;
@@ -164,9 +164,8 @@ main h1 {
 }
 
 .finishedlink a {
-  display: inline-block;
+  display: block;
   padding: 0;
-  margin: 5px;
   color: white;
   text-decoration: none;
 }
