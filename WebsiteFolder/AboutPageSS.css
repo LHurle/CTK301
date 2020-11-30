@@ -162,6 +162,7 @@ main {
 .biopic {
   float: right;
   margin: 0;
+  margin-left: 10px;
   padding: 0;
   border-radius: 24px;
 }
