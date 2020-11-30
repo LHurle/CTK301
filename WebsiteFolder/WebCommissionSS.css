@@ -45,7 +45,8 @@ h1 {
 #mainimg {
   grid-column: span 8;
   margin: 0;
-  margin-left: 60px;
+  margin-left: 70px;
+  margin-bottom: 25px;
   padding: 0;
   border-radius: 24px;
 }
@@ -103,7 +104,12 @@ main {
   grid-column: span 12;
 }
 
-.biolink {
+.tradex {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.gallerylink {
   grid-column: span 2;
   background-color: #B990E1;
   color: white;
@@ -114,18 +120,18 @@ main {
   text-shadow: 2px 2px 2px #000;
 }
 
-.biolink a {
+.gallerylink a {
   display: block;
   color: white;
   text-decoration: none;
 }
 
-.biolink:hover {
+.gallerylink:hover {
   background-color: #524263;
   color: black;
 }
 
-.biolink:visited {
+.gallerylink:visited {
   background-color: #5B4B61;
   color: black;
 }
@@ -160,6 +166,7 @@ main {
 .biopic {
   float: right;
   margin: 0;
+  margin-left: 5px;
   padding: 0;
   border-radius: 24px;
 }
@@ -181,6 +188,22 @@ section h2 {
 .bioparagraph {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 110px;
+}
+
+.digitalinfo {
+  border-bottom: 5px solid #B990E1;
+}
+
+.commlink {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #B990E1;
+}
+
+.commlink a {
+  color: #B990E1;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-decoration: none;
 }
 
 .mediabox {
