@@ -1,0 +1,133 @@
+body {
+  background-color: #000000;
+  font-family: georgia, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #F9DBEA;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #EB84B7;
+  color: white;
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  grid-column: span 12;
+  font-family: georgia, sans-serif;
+  text-shadow: 2px 2px 2px #000;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+#mainimg {
+  grid-column: span 4;
+  margin: 0;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+nav {
+  grid-column: span 5;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px #000;
+}
+
+nav li {
+  margin-bottom: 24px;
+}
+
+nav li a {
+  display: block;
+  background-color: #EB84B7;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 24px;
+  transition: background-color .5s, width .5s, color .5s;
+}
+
+nav li a:hover {
+  background-color: #FFFFFF;
+}
+
+main {
+  grid-column: span 12;
+}
+
+h2 {
+  grid-column: span 12;
+  width: 1175px;
+  margin-left: 0;
+  text-decoration: none;
+}
+
+section {
+  font-family: 'Oswald', sans-serif;
+}
+
+section h2 {
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-top: 5px solid #EB84B7;
+  padding-top: 10px;
+  padding-right: 0;
+  margin: 0;
+}
+
+.countrysideimg {
+  margin-bottom: 15px;
+}
+
+.mediabox {
+  grid-column: span 12;
+  width: 220px;
+  padding: 10px;
+  background-color: #EB84B7;
+}
+
+.mediabox a {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-decoration: none;
+}
+
+footer {
+  grid-column: span 12;
+  font-family: georgia, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  border-top: 5px solid #EB84B7;
+  padding-bottom: 5px;
+}
