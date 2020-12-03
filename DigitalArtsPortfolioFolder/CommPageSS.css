@@ -37,7 +37,7 @@ h1 a {
 
 h2 {
   grid-column: span 12;
-  width: 700px;
+  width: 1175px;
   text-decoration: none;
 }
 
@@ -48,6 +48,15 @@ h2 {
   margin-top: 0;
   margin-bottom: 20px;
   padding: 0;
+}
+
+a:visited {
+  background-color: #CA0B54;
+  color: black;
+}
+
+a:hover {
+  color: black;
 }
 
 nav {
@@ -82,6 +91,7 @@ nav li a {
 
 nav li a:hover {
   background-color: #FFFFFF;
+  color: black;
 }
 
 main {
@@ -94,6 +104,46 @@ main h1 {
   text-shadow: none;
 }
 
+.tradex {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.gallerylink {
+  grid-column: span 2;
+  background-color: #EB84B7;
+  color: white;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  padding: 5px;
+  width: 140px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.gallerylink a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.gallerylink:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.gallerylink:visited {
+  background-color: #CA0B54;
+  color: black;
+}
+
+.biopic {
+  float: right;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  border-radius: 24px;
+}
+
 section {
   font-family: 'Oswald', sans-serif;
 }
@@ -102,7 +152,7 @@ section h2 {
   font-family: georgia, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  border-top: 5px solid #B990E1;
+  border-top: 5px solid #EB84B7;
   padding-top: 10px;
   padding-right: 0;
   margin: 0;
@@ -110,6 +160,29 @@ section h2 {
 
 .countrysideimg {
   margin-bottom: 15px;
+}
+
+.bioparagraph {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 110px;
+}
+
+.digitalinfo {
+  border-bottom: 5px solid #EB84B7;
+  width: 1175px;
+}
+
+.commlink {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #EB84B7;
+  width: 1175px;
+}
+
+.commlink a {
+  color: #EB84B7;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-decoration: none;
 }
 
 .mediabox {
@@ -133,5 +206,6 @@ footer {
   font-weight: bold;
   text-align: left;
   border-top: 5px solid #EB84B7;
+  width: 1175px;
   padding-bottom: 5px;
 }

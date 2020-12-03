@@ -1,0 +1,195 @@
+body {
+  background-color: #000000;
+  font-family: georgia, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #F9DBEA;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #EB84B7;
+  color: white;
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+header a {
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000;
+  box-shadow: none;
+}
+
+h1 {
+  font-family: georgia, sans-serif;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  grid-column: span 12;
+  width: 1175px;
+  text-decoration: none;
+}
+
+.steampunksketch {
+  grid-column: span 2;
+  margin-right: 0;
+  margin-left: 25px;
+  margin-top: 0;
+  padding-right: 0;
+}
+
+#mainimg {
+  grid-column: span 3;
+  margin: 0;
+  margin-left: 175px;
+  margin-top: 0;
+  padding: 0;
+}
+
+img {
+  margin-right: 30px;
+  margin-top: 24px;
+}
+
+a:visited {
+  background-color: #CA0B54;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+nav {
+  grid-column: span 5;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px #000;
+}
+
+nav li {
+  margin-bottom: 24px;
+}
+
+nav li a {
+  display: block;
+  background-color: #EB84B7;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 24px;
+  transition: background-color .5s, width .5s, color .5s;
+}
+
+nav li a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+main {
+  grid-column: span 12;
+}
+
+main h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+.finishedlink {
+  grid-column: span 2;
+  background-color: #EB84B7;
+  color: white;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  padding: 5px;
+  margin-left: 1010px;
+  width: 180px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.finishedlink a {
+  display: block;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.finishedlink:hover {
+  background-color: white;
+  color: black;
+}
+
+.finishedlink:visited {
+  background-color: #CA0B54;
+  color: black;
+}
+
+section {
+  font-family: 'Oswald', sans-serif;
+}
+
+section h2 {
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-top: 5px solid #EB84B7;
+  padding-top: 10px;
+  padding-right: 0;
+  margin: 0;
+}
+
+.bioparagraph {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 110px;
+}
+
+.mediabox {
+  grid-column: span 12;
+  width: 220px;
+  padding: 10px;
+  background-color: #EB84B7;
+}
+
+.mediabox a {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-decoration: none;
+}
+
+footer {
+  grid-column: span 12;
+  font-family: georgia, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  border-top: 5px solid #EB84B7;
+  width: 1175px;
+  padding-bottom: 5px;
+}
