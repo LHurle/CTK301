@@ -68,7 +68,6 @@ a:hover {
 
 nav {
   grid-column: span 4;
-  background-color: #B990E1;
   font-family: georgia, sans-serif;
   text-align: left;
   margin: 0;
@@ -98,7 +97,10 @@ nav li a {
 }
 
 nav li a:hover {
+  color: white;
   background-color: #524263;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000;
 }
 
 main {
