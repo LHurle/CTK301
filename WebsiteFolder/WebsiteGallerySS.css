@@ -38,7 +38,6 @@ header a:hover {
 }
 
 h1 {
-  color: white;
   font-family: georgia, sans-serif;
   text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 }
