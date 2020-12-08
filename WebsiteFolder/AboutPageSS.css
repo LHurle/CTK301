@@ -32,6 +32,7 @@ header {
 }
 
 header a {
+  color: white;
   text-decoration: none;
   text-shadow: 2px 2px 2px #000;
   box-shadow: none;
@@ -67,6 +68,7 @@ a:hover {
 
 nav {
   grid-column: span 4;
+  background-color: #B990E1;
   font-family: georgia, sans-serif;
   text-align: left;
   margin: 0;
