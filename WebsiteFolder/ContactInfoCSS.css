@@ -1,0 +1,230 @@
+body {
+  background-color: #999999;
+  font-family: georgia, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #B990E1;
+  color: white;
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000;
+  box-shadow: none;
+}
+
+header a:hover {
+  color: white;
+  background-color: #B990E1;
+  text-shadow: 2px 2px 2px #000;
+}
+
+h1 {
+  color: white;
+  font-family: georgia, sans-serif;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+.contactlink {
+  color: #B990E1;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-decoration: none;
+  width: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.contactlink a {
+  color: #B990E1;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactlink:hover {
+  color: white;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#mainimg {
+  grid-column: span 8;
+  margin: 0;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  padding: 0;
+  border-radius: 24px;
+}
+
+img {
+  margin-right: 30px;
+  border-radius: 24px;
+}
+
+a:visited {
+  background-color: #5B4B61;
+  color: black;
+}
+
+a:hover {
+  background-color: #524263;
+  color: black;
+}
+
+nav {
+  grid-column: span 4;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px #000;
+}
+
+nav li {
+  margin-bottom: 24px;
+}
+
+nav li a {
+  display: block;
+  background-color: #B990E1;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 24px;
+  transition: background-color .5s, width .5s, color .5s;
+}
+
+nav li a:hover {
+  color: white;
+  background-color: #524263;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000;
+}
+
+main {
+  grid-column: span 12;
+}
+
+.mainlink {
+  grid-column: span 2;
+  background-color: #B990E1;
+  color: white;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  margin-left: 1050px;
+  padding: 5px;
+  width: 140px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.mainlink a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.mainlink:hover {
+  background-color: #524263;
+  color: black;
+}
+
+.mainlink:visited {
+  background-color: #5B4B61;
+  color: black;
+}
+
+.artexlink {
+  grid-column: span 2;
+  background-color: #B990E1;
+  color: white;
+  font-family: georgia, sans-serif;
+  text-align: left;
+  margin-left: 1050px;
+  padding: 5px;
+  width: 140px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.artexlink a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.artexlink:hover {
+  background-color: #524263;
+  color: black;
+}
+
+.artexlink:visited {
+  background-color: #5B4B61;
+  color: black;
+}
+
+section {
+  font-family: 'Oswald', sans-serif;
+}
+
+section h2 {
+  font-family: georgia, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-top: 5px solid #B990E1;
+  padding-top: 10px;
+  padding-right: 0;
+  margin: 0;
+}
+
+.bioparagraph {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+
+.mediabox {
+  padding: 20px;
+  background-color: #B990E1;
+}
+
+.mediabox a {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-decoration: none;
+}
+
+footer {
+  grid-column: span 12;
+  font-family: georgia, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  border-top: 5px solid #B990E1;
+  padding-bottom: 5px;
+}

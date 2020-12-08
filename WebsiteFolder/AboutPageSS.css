@@ -3,13 +3,6 @@ body {
   font-family: georgia, sans-serif;
 }
 
-.dropshadowbox {
-  padding: 10px;
-  border: 1px solid #999;
-  background-color: #ccc;
-  box-shadow: -24px -10px 0 red; /* x, y, blur, color */
-}
-
 #wrapper {
   margin: 24px auto;
   width: 1200px;
@@ -38,7 +31,14 @@ header a {
   box-shadow: none;
 }
 
+header a:hover {
+  color: white;
+  background-color: #B990E1;
+  text-shadow: 2px 2px 2px #000;
+}
+
 h1 {
+  color: white;
   font-family: georgia, sans-serif;
   text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 }
@@ -47,6 +47,7 @@ h1 {
   grid-column: span 8;
   margin: 0;
   margin-left: 60px;
+  margin-bottom: 20px;
   padding: 0;
   border-radius: 24px;
 }
